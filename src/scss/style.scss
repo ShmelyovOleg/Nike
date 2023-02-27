@@ -1,0 +1,20 @@
+@import 'fonts';
+body {
+  background-color: #fff;
+  font-family: CormorantUpright;
+  span {
+    color: aqua;
+  }
+  // background: url('@img/image.png');
+}
+
+@media (max-width: 768px) {
+  span {
+    font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    color: aquamarine;
+  }
+}
